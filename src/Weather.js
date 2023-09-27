@@ -20,5 +20,6 @@ export default function Weather(props) {
         <img src={icon} alt="" />
       </div>
     );
-  }
+  } 
+
 }
