@@ -30,7 +30,14 @@ export default function SearchEngine() {
         />
         <input type="submit" value="Search" />
       </form>
+      
       <Weather weatherData={weatherData} />
+      
+      <small>
+  <a href="https://github.com/franprincipe/weather-react"  alt="">Open-source code</a> by Francisca Principe
+  </small>
+
+     
     </div>
   );
 }
